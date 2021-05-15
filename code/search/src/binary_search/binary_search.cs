@@ -26,8 +26,8 @@ namespace binary_search
                     Console.WriteLine($" + Found number {find} at index {res}");
                 }
 
-                else
-                    Console.WriteLine(" - Number not found!");
+                else { Console.WriteLine(" - Number not found!"); }
+                    
             }
 
         }
