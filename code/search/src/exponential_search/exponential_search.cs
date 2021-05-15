@@ -1,7 +1,7 @@
 // C# program to find an element x in a sorted array using Exponential search.
 using System;
 // Part of Cosmos by OpenGenus Foundation
-class ExponentialSearch {
+static class ExponentialSearch {
    
     // Returns position of first ocurrence of x in array
     static int exponentialSearch(int[] arr, int n, int x) {

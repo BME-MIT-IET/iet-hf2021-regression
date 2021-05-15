@@ -8,7 +8,8 @@ public class Interpolation {
 	public  static int interpolationSearch(int x)
 	    {
 	        // Find indexes of two corners
-	        int lo = 0, hi = (arr.length - 1);
+	        int lo = 0;
+		int hi = (arr.length - 1);
 	      
 	        // Since array is sorted, an element present
 	        // in array must be in range defined by corner
