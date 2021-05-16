@@ -12,7 +12,9 @@ public static class LinearSearch
             System.Console.WriteLine(itemToFind + " found at " + itemIndex);
         }
         else
-        { System.Console.WriteLine(itemToFind + " not found!"); }
+        { 
+            System.Console.WriteLine(itemToFind + " not found!"); 
+        }
     }
     
     public static int linearSearch(int[] items, int itemToFind)
