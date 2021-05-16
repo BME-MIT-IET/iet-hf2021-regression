@@ -1,10 +1,10 @@
 our contribution consisted of 4 parts:
 
-*CI and static techniques:
+CI and static techniques:
 - Running a static analysis tool and reviewing the reported problems using codacy (Khuderchuluun Erdenechuluun-GTBHX0)
 - Performing manual code review on some part of the application(Batsaikhan Khosbayar-L2N9IX)
 
-*Testing:
+Testing:
 - Creating or extending unit tests (Weheash Ashraf Ahmed Elazab Ahmed-HTAEOU)
 - Designing, executing and documenting manual tests (Achref Mekni-RMPSYJ)
 
