@@ -1,7 +1,7 @@
 # Part of Cosmos by OpenGenus Foundation
 
 
-def bubble_sort(arr):
+def bubble_sort_elegant(arr):
     """
     >>> arr = [5, 1, 3, 9, 2]
     >>> bubble_sort(arr)

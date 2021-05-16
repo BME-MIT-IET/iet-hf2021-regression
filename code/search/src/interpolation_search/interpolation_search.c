@@ -38,7 +38,3 @@ void test(){
         printf("EElement not found.\n");
 }
 
-int main() {
-    test(25);
-    return 0;
-}

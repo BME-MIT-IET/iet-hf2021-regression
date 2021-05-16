@@ -1,5 +1,5 @@
 // Part of Cosmos by OpenGenus
-public class LinearSearch
+public static class LinearSearch
 {
     public static void Main(string[] args)
     {
@@ -7,10 +7,14 @@ public class LinearSearch
     
         int itemToFind = 634;
         int itemIndex = linearSearch(items, itemToFind);
-        if(itemIndex != -1)
+        if (itemIndex != -1)
+        {
             System.Console.WriteLine(itemToFind + " found at " + itemIndex);
+        }
         else
-            System.Console.WriteLine(itemToFind + " not found!");
+        { 
+            System.Console.WriteLine(itemToFind + " not found!"); 
+        }
     }
     
     public static int linearSearch(int[] items, int itemToFind)

@@ -14,7 +14,7 @@ int main()
     std::cin >> n;
     std::vector<int> a(n);
     std::vector<int> b(n);
-    for (int i; i < n; ++i) {
+    for (int i=0; i < n; ++i) {
         std::cin >> a[i];
         b[i] = a[i];
     }

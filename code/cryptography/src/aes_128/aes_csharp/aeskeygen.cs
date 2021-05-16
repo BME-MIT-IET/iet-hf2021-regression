@@ -53,7 +53,7 @@ namespace AES
         protected void GenRoundKeys(byte[] MainKey, int nk)
         {
             int nr = Helpers.GetAESNbRounds(nk),
-                i, j,
+                i, 
                 rk_size = AESCipher.StateNB * (nr + 1);
             uint tmp;
             byte rcon = 0x01;
