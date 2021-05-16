@@ -46,6 +46,7 @@ i found 2 errors out of the functional testing(1 critical/1 average):
 
 -critical:
 
-  found a mistake when using circle sorting, the algorithm is not working properly 
-  i tested it with an array of pair & impair size and it shows a wrong result in both cases 
-  i suggest that they revisit the algorithm and follow the right mathematical approach to fix the issue 
+  found a mistake when using circle sorting, my test scenario was based on how they tested the file in its main function 
+  but it gave a wrong result twice for impair & pair array sizes which means the main part written in the circle_sort file is
+  wrong so i deleted it 
+  
