@@ -17,7 +17,7 @@ Overview:
 
 Static Analysis:
 
-It is a method of debugging that is done by examining the code without executing the program. The process provides an understanding of the code structure and help us to review and fix issues in the libraries. We used Codacy as static analyser. It analyzed various of issues to review and fix after analysing the libraries
+It is a method of debugging that is done by examining the code without executing the program. The process provides an understanding of the code structure and help us to review issues in the libraries. We used Codacy as static analyser. It analyzed various of issues to review and fix after analysing the libraries
 
 Manual Code Review:
 
