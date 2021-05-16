@@ -26,7 +26,10 @@ Performance Testing:
 ![image](https://user-images.githubusercontent.com/61314172/118402354-e2edf900-b669-11eb-8ea4-d4d8b637ee5d.png)
 
 from the Performance Testing we can deduce that:
-->the binary search is the fastest algorithm out of the search algorithms
+->the ternary search is the most optimal performing algorithm out of the search algorithms (6.6823 s)
+which is still not a great time for a user, a user would be happier to get his output immediatly 
+i suggest that they review the code and figure out if there are other less consuming options/datastructures to use
+instead of the ones already used 
 
 
 Functional Testing:
