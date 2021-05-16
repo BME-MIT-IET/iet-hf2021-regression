@@ -3,7 +3,7 @@
 using System;
 namespace CS
 {
-    public class MedianSort
+    public static class MedianSort
     {
 
         static void swap(ref int a, ref int b)
@@ -18,10 +18,12 @@ namespace CS
 
             if (arr[left] > arr[mid]) {
                 if (arr[left] > arr[right]) {
-                    if (arr[right] > arr[mid])
+                    if (arr[right] > arr[mid]){
                         return right;
-                    else
+                    }
+                    else{
                         return mid;
+                    }
                 } else {
                     return left;
                 }
@@ -29,10 +31,12 @@ namespace CS
             else
             {
                 if (arr[mid] > arr[right]) {
-                    if (arr[left] > arr[right])
+                    if (arr[left] > arr[right]){
                         return left;
-                    else 
+                    }
+                    else {
                         return right;
+                    }
                 } else {
                     return mid;
                 }
@@ -59,19 +63,23 @@ namespace CS
             int pivot = Partition(ref arr, left, right, idx);
             int kth = left + k - 1;
 
-            if (kth == pivot)
+            if (kth == pivot){
                 return pivot;
+            }
 
-            if (kth < pivot)
+            if (kth < pivot){
                 return SelectKth(ref arr, k, left, pivot - 1);
-            else
+            }
+            else{
                 return SelectKth(ref arr, kth - pivot, pivot + 1, right);
+            }
 
         }
 
         static void Sort(ref int[] arr, int left, int right) {
-            if (left >= right)
+            if (left >= right){
                 return;
+            }
 
             int medianIdx = SelectKth(ref arr, 1 + (right - left) / 2, left, right);
             int mid = (right + left) / 2;
@@ -82,8 +90,9 @@ namespace CS
             {
                 if (arr[i] > arr[mid])
                 {
-                    while (arr[k] > arr[mid])
+                    while (arr[k] > arr[mid]){
                         k++;
+                    }
                     swap(ref arr[i], ref arr[k]);
                 }
             }

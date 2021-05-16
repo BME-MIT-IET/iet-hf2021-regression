@@ -192,7 +192,7 @@ takeStep(int i1, int i2) //Break function
 
     /* Update threshold b */
     b1 = E1 + y1*(a1 - alpha1)*k11 + y2*(a2 - alpha2)*k12 + b;
-    b1 = E2 + y1*(a1 - alpha1)*k12 + y2*(a2 - alpha2)*k22 + b;
+    b2 = E2 + y1*(a1 - alpha1)*k12 + y2*(a2 - alpha2)*k22 + b;
 
     if (0 < a1 && a1 < C)
         bnew = b1;
