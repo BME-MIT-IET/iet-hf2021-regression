@@ -29,3 +29,10 @@ several functions in the search library & Functional Testing that combines 2 lib
 and tests if their usage seperately and together is efficient and doesnt cause any execution problem
 
 Unit Testing:
+
+
+Conclusion:
+
+we've learned how to contribute to different parts of an open-source project by applying certain testing,CI & static techniques.
+we've created issues related to each task. we fixed some code/syntax/logical errors after seeing the results of our tests
+and discovering which parts were erroneous.
