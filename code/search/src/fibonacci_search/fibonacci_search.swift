@@ -39,7 +39,7 @@ func fibonacciSearch(_ numberArray: [Int], _ x: Int, _ n: Int) -> Int {
             offset = i
         } else if numberArray[i] > x {
             fibM = fibM2
-            fibM1 = fibM1 - fibM2
+            fibM1 -= fibM2
             fibM2 = fibM - fibM1
         } else {
             return i
