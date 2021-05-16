@@ -36,13 +36,3 @@ int ternarySearch(int array[], int left, int right, int x)
    //Element not found
    return -1;
 }
-
-//Main function
-int main(void)
-{
-   int array[] = {1, 2, 3, 5};
-   int size = sizeof(array)/ sizeof(array[0]);
-   int find = 3;
-   printf("Position of %d is %d\n", find, ternarySearch(array, 0, size-1, find));
-   return 0;
-}
