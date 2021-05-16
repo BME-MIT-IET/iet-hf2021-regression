@@ -1,10 +1,9 @@
 
 public class Interpolation {
 
-	static int[] arr = new int[] { 10, 12, 13, 15, 17, 19, 20, 21, 22, 23, 24, 33, 35, 42, 49 };
-
-	public static int interpolationSearch(int x) {
+	public static int interpolationSearch(int x, int[] arr) {
 		// Find indexes of two corners
+
 		int low = 0;
 		int high = (arr.length - 1);
 
@@ -27,7 +26,8 @@ public class Interpolation {
 
 	public static void main(String[] args) {
 		int x = 20;
-		int index = interpolationSearch(x);
+		int[] arr = new int[] { 10, 12, 13, 15, 17, 19, 20, 21, 22, 23, 24, 33, 35, 42, 49 };
+		int index = interpolationSearch(x, arr);
 
 		// If element was found
 		if (index != -1)

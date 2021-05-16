@@ -24,11 +24,10 @@ public class TopologicalSort {
         while (!stack.isEmpty()) {
             element = stack.peek();
             while (i <= number_of_nodes) {
-                if (adjacency_matrix[element][i] == 1 && visited[i] == 1) {
-                    if (stack.contains(i)) {
-                        Logger.log("TOPOLOGICAL SORT NOT POSSIBLE");
-                        throw new Exception("TOPOLOGICAL SORT NOT POSSIBLE ON THIS INPUT");
-                    }
+                if (adjacency_matrix[element][i] == 1 && visited[i] == 1 && stack.contains(i)) {
+                    Logger.log("TOPOLOGICAL SORT NOT POSSIBLE");
+                    throw new NullPointerException();
+
                 }
                 if (adjacency_matrix[element][i] == 1 && visited[i] == 0) {
                     stack.push(i);

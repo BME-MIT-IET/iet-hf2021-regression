@@ -6,7 +6,7 @@ import java.util.Arrays;
 class ExponentialSearch {
 
     // Returns position of first ocurrence of x in array
-    static int exponentialSearch(int[] arr, int n, int x) {
+    public static int exponentialSearch(int[] arr, int n, int x) {
 
         // If x is present at firt location itself
         if (arr[0] == x) {
@@ -26,8 +26,8 @@ class ExponentialSearch {
     }
 
     // Driver method
-    public static void main(String args[]) {
-        int arr[] = { 4, 91, 66, 89, 54, 2, 3 };
+    public static void main(String[] args) {
+        int[] arr = { 4, 91, 66, 89, 54, 2, 3 };
         int x = 66;
         int result = exponentialSearch(arr, arr.length, x);
 

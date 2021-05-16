@@ -34,7 +34,7 @@ class LinearSearch {
      *
      * @return the index of the element, else -1.
      */
-    static int linearSearch(int[] arr, int key) {
+    public static int linearSearch(int[] arr, int key) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == key)
                 return i;
@@ -51,7 +51,7 @@ class LinearSearch {
      * 
      * @return A recursive call to {@link #recursiveLinearSearch()}
      */
-    static int recursiveLinearSearch(int[] arr, int key) {
+    public static int recursiveLinearSearch(int[] arr, int key) {
         return recursiveLinearSearch(arr, key, 0);
     }
 
