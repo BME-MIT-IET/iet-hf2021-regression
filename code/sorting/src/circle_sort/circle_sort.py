@@ -38,9 +38,3 @@ def circle_sort(a, lower, upper, swaps):
     return swaps
 
 
-# hard coded driver function to run the program
-if __name__ == "__main__":
-    a = [6, 5, 3, 1, 8, 7, 2, 4]
-    print("Unsorted List: ", a)
-    no_of_swaps = circle_sort(a, 0, len(a) - 1, 0)
-    print("Sorted List: ", a)
