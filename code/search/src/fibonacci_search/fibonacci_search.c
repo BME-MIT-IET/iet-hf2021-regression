@@ -16,43 +16,25 @@ range -> Eleminated range marker
 int fibSearch(int ar[], int x, int n);
 int min(int a, int b);
 
-int main()
-{
-	int n;
-	scanf("%d",&n);
-	int ar[n],i;
-	for(i=0;i<n;i++){
-		scanf("%d",&ar[i]);
-	}
-	int x;
-	scanf("%d",&x);
-	int index = fibSearch(ar,x,n);
-	if(index == -1){
-		printf("Element not found.\n");
-		return 0;
-	}
-	printf("Element found at index %d\n",index );
-	return 0;
-}
 
-int fibSearch(int ar[], int x, int n)
+int fibSearch(int ar[], int size, int find)
 {
 	int secondPreceding = 0, firstPreceding = 1;
 	int nextNum = secondPreceding + firstPreceding;
-	while(nextNum < n){
+	while(nextNum < find){
 		secondPreceding = firstPreceding;
 		firstPreceding = nextNum;
 		nextNum = secondPreceding + firstPreceding;
 	} 
 	int range = -1;
 	while(nextNum > 1){
-		int i = min(range + firstPreceding, n-1);
-		if(x < ar[i]){
+		int i = min(range + firstPreceding, find-1);
+		if(size < ar[i]){
 			nextNum = nextNum - firstPreceding;
 			firstPreceding = firstPreceding - secondPreceding;
 			secondPreceding = nextNum - firstPreceding;
 		}
-		else if(x > ar[i]){
+		else if(size > ar[i]){
 			nextNum = firstPreceding;
 			firstPreceding = secondPreceding;
 			secondPreceding = nextNum - firstPreceding;
@@ -62,7 +44,7 @@ int fibSearch(int ar[], int x, int n)
 			return i;
 		}
 	}
-	if(firstPreceding && ar[range+1] == x){
+	if(firstPreceding && ar[range+1] == size){
 		return range + 1;
 	}
 	return -1;
