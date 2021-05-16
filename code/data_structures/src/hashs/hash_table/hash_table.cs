@@ -16,7 +16,7 @@ namespace hashtables
         static int key; // key of the hastable
         public bool uniqueness { get; set; } // setting to check if allow uniqueness or not
         Hashtable hashtable = new Hashtable();
-        internal void add(string value)
+        static internal void add(string value)
         {
             if(uniqueness)
             {
