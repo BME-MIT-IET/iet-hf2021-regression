@@ -1,10 +1,12 @@
 our contribution consisted of 4 parts:
 
 CI and static techniques:
+
 - Running a static analysis tool and reviewing the reported problems using codacy (Khuderchuluun Erdenechuluun-GTBHX0)
 - Performing manual code review on some part of the application(Batsaikhan Khosbayar-L2N9IX)
 
 Testing:
+
 - Creating or extending unit tests (Weheash Ashraf Ahmed Elazab Ahmed-HTAEOU)
 - Designing, executing and documenting manual tests (Achref Mekni-RMPSYJ)
 
@@ -15,14 +17,15 @@ Overview:
 
 Static Analysis:
 
-
 Manual Code Review:
 
+As we are doing manual code review on Search and Sort libraries, we have wrote down our review on document which can be found
+in doc/manualReview.md and suggested changes are commited.
 
 Manual Testing:
 
 it consists of 2 parts which are Performance Testing that measures the performance(time complexity) of
 several functions in the search library & Functional Testing that combines 2 libraries (search+sort)
-and tests if their usage seperately and together is efficient and doesnt cause any execution problem 
+and tests if their usage seperately and together is efficient and doesnt cause any execution problem
 
 Unit Testing:
