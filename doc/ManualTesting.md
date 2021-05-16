@@ -26,7 +26,7 @@ Performance Testing:
 ![image](https://user-images.githubusercontent.com/61314172/118402354-e2edf900-b669-11eb-8ea4-d4d8b637ee5d.png)
 
 from the Performance Testing we can deduce that:
-the binary search is the fastest algorithm out of the search algorithms
+->the binary search is the fastest algorithm out of the search algorithms
 
 
 Functional Testing:
