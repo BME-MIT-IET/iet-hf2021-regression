@@ -8,15 +8,15 @@ Testing Plan:
 The Python library runs the code statement 1 million times and provides the minimum time taken from the given set of code snippets. 
 Python timeit() is a useful method that helps in checking the performance of the code.
 
-the idea is to run each searching function n times (n=10000) on randomly generated arrays and then calculate the average time. the process is repeated 3 times and 
-then i get 3 time results.i picked the minimal value out of these 3 to get an optimal value.
+  the idea is to run each searching function n times (n=10000) on randomly generated arrays and then calculate the average time. the process is repeated 3 times and 
+  then i get 3 time results.i picked the minimal value out of these 3 to get an optimal value.
 
 - the Functional Test is based on pytest library which is a testing framework that allows users to write test codes using Python programming language. 
 It helps you to write simple and scalable test cases
 
-the idea is to combine 2 libraries from the repository and see if they work together or not.So all the test cases scenarios are the following:
-the function takes an array & x as a parameter, first it sorts the array using a sorting algorithm from the sort library then it searches for x in the sorted 
-array using a searching algorithm from the search library
+  the idea is to combine 2 libraries from the repository and see if they work together or not.So all the test cases scenarios are the following:
+  the function takes an array & x as a parameter, first it sorts the array using a sorting algorithm from the sort library then it searches for x in the sorted 
+  array using a searching algorithm from the search library
 
 
 Results:
