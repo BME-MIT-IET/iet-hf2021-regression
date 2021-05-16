@@ -2,7 +2,7 @@ our contribution consisted of 4 parts:
 
 CI and static techniques:
 
-- Running a static analysis tool and reviewing the reported problems using codacy (Khuderchuluun Erdenechuluun-GTBHX0)
+- Running a static analysis tool and reviewing the reported problems using Codacy (Khuderchuluun Erdenechuluun-GTBHX0)
 - Performing manual code review on some part of the application(Batsaikhan Khosbayar-L2N9IX)
 
 Testing:
@@ -16,6 +16,8 @@ the most efficient CI & static techniques and testing tasks to apply on such rep
 Overview:
 
 Static Analysis:
+
+It is a method of debugging that is done by examining the code without executing the program. The process provides an understanding of the code structure and help us to review and fix issues in the libraries.
 
 Manual Code Review:
 
