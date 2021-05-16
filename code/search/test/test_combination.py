@@ -69,14 +69,14 @@ def test_sortMerge_searchJump ():
     assert jump_search(testres, find) == 6 
     
 def test_sortCircle_searchFibonacci_impair ():
-    testres = circle.circle_sort(circlelist_impair, 0, len(circlelist_impair) - 1, 0)
+    circle.circle_sort(circlelist_impair, 0, len(circlelist_impair) - 1, 0)
     print('--testing Circle sorting--\n')
     assert circlelist_impair == sorted_result
     print('--testing Fibonacci searching--\n')
     assert fibonacci_search(circlelist_impair, find) == 6
     
 def test_sortCircle_searchFibonacci_pair ():
-    testres = circle.circle_sort(circlelist_pair, 0, len(circlelist_pair) - 1, 0)
+    circle.circle_sort(circlelist_pair, 0, len(circlelist_pair) - 1, 0)
     print('--testing Circle sorting--\n')
     assert circlelist_pair == sorted_result
     print('--testing Fibonacci searching--\n')
