@@ -16,7 +16,7 @@ It helps you to write simple and scalable test cases
 
   the idea is to combine 2 libraries from the repository and see if they work together or not.So all the test cases scenarios are the following:
   the function takes an array & x as a parameter, first it sorts the array using a sorting algorithm from the sort library then it searches for x in the sorted 
-  array using a searching algorithm from the search library
+  array using a searching algorithm from the search library.Finally we need to assert & compare the result with the expected output that i already initialized.
 
 
 Results:
