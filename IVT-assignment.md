@@ -1,7 +1,8 @@
-our contribution consisted of 4 parts:
+our contribution consisted of 5 parts:
 
 CI and static techniques:
 
+- Adding a build framework by Makefile (Weheash Ashraf Ahmed Elazab Ahmed - HTAEOU)
 - Running a static analysis tool and reviewing the reported problems using Codacy (Khuderchuluun Erdenechuluun-GTBHX0)
 - Performing manual code review on some part of the application(Batsaikhan Khosbayar-L2N9IX)
 
@@ -30,9 +31,13 @@ it consists of 2 parts which are Performance Testing that measures the performan
 several functions in the search library & Functional Testing that combines 2 libraries (search+sort)
 and tests if their usage seperately and together is efficient and doesnt cause any execution problem
 
+Build framework:
+
+Makefile build system is used to create a static library of a collection of specified .c or .cpp files. In the current development, all files of algorithms under /search/ directories has been built together in liball.a static library which can make the functionality of the algorithms portable and reusable. 
+
 Unit Testing:
 
-
+First, a special framework for the environment had to be implemented using Cpputest to unit test .c files only. Afterwards, all tests are collected together in all_search_tests.c that covers the basic unit testing for the .c files in /search/ directory.
 Conclusion:
 
 we've learned how to contribute to different parts of an open-source project by applying certain testing,CI & static techniques.
