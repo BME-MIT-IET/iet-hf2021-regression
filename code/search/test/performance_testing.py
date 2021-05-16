@@ -1,13 +1,9 @@
 import sys
-import os
-import unittest
+
 import timeit
 
 #path has to be changed if you would like to run the test depending on your local location of the files 
 sys.path.insert(1, 'E:/Achref/IVT hw/iet-hf2021-regression/code')
-
-import bisect
-import random
 
 #import the search library
 import search.src.linear_search.linear_search as lin
