@@ -26,7 +26,7 @@ public class TopologicalSort {
             while (i <= number_of_nodes) {
                 if (adjacency_matrix[element][i] == 1 && visited[i] == 1 && stack.contains(i)) {
                     Logger.log("TOPOLOGICAL SORT NOT POSSIBLE");
-                    throw new NullPointerException();
+                    throw new IllegalArgumentException();
 
                 }
                 if (adjacency_matrix[element][i] == 1 && visited[i] == 0) {
